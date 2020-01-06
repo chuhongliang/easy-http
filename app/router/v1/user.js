@@ -1,6 +1,7 @@
 const Router = require('koa-router');
 const router = new Router();
 
+router.prefix('/v1')
 router
     .get('/login', (ctx) => {
         ctx.body = 'hello koa'

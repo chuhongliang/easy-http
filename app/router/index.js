@@ -4,7 +4,7 @@ const router = new Router()
 
 
 router.get('/',(ctx,next)=>{
-    ctx.body = "hello A module router"
+    ctx.body = "hello this is index"
 })
 
 module.exports = router;
