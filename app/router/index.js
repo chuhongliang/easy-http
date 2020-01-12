@@ -1,10 +1,9 @@
-const Router = require('koa-router')
+const Router = require('koa-router');
+const router = new Router();
 
-const router = new Router()
 
-
-router.get('/',(ctx,next)=>{
-    ctx.body = "hello this is index"
-})
-
-module.exports = router;
+module.exports = function (app) {
+	const controller = app.controller.index;
+	router.get('/', controller.home.bind(controller));
+	return router;
+}
