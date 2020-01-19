@@ -3,7 +3,7 @@
 
 #### 目录结构
 
-``` js
+```
 eop-project
 ├── package.json
 ├── app.js                   
