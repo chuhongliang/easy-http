@@ -24,3 +24,14 @@ eop-project
 - app/util/** 用于放置工具类
 - config/config.{env}.js 用于编写配置文件
 - app.js 启动时的初始化工作
+
+### 初始化项目
+```
+  git clone https://github.com/chuhongliang/eop-starter.git
+```
+
+### eop-cli 脚手架初始化项目
+```
+  npm install -g eop-cli
+  eop create <projectName>
+```
