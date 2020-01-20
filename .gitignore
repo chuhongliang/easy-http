@@ -41,7 +41,7 @@ build/Release
 node_modules/
 jspm_packages/
 
-/eop-sample
+/eop-starter
 
 # TypeScript v1 declaration files
 typings/

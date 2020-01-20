@@ -19,6 +19,7 @@
   "dependencies": {
     "@koa/cors": "^3.0.0",
     "com-extend": "^1.0.1",
+    "eop-http": "^1.0.2",
     "eop-validator": "^1.0.1",
     "glob": "^7.1.6",
     "koa": "^2.11.0",

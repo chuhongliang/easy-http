@@ -5,19 +5,22 @@
 
 ```
 eop-project
-├── package.json
-├── app.js                   
+├── app                   
 |   ├── controller
 |   ├── public                         
 |   ├── router                         
 |   ├── service
 |   ├── util
 ├── config 
-    ├── config.default.js                  
+|   ├── config.default.js
+├── app.js
+├── package.json                  
 ```
 如上,由框架约定的目录
 - app/controller/** 用于解析用户的输入，处理后返回相应的结果
 - app/service/** 用于编写业务逻辑层
 - app/public/** 用于放置静态资源
+- app/router/** 用于放置路由文件
+- app/util/** 用于放置工具类
 - config/config.{env}.js 用于编写配置文件
 - app.js 启动时的初始化工作
